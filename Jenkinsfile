@@ -9,13 +9,13 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh './PES1UG20CS668-1'
+                sh './PES1UG20CS668-2'
                 echo 'test stage successful'
             }
         }
         stage('Deploy') {
             steps {
-                sh 'echo "Deploying "
+                sh 'echo "Deploying "'
                 echo 'deployment successful'
             }
         }
