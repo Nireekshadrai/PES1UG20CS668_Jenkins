@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(void) {
-  cout << "pipeline output\n";
+  cout << "Task 5 pipeline output\n";
   
   return 0;
 }
