@@ -4,12 +4,13 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'g++ -o nireeksha pes1ug20cs668.cpp'
+                build job : 'PES1UG20CS668-1'
                 echo 'Build stage successful'
             }
         }
         stage('Test') {
             steps {
-                sh './nireeksha_123'
+                sh './nireeksha'
                 echo 'Test stage successful'
             }
         }
